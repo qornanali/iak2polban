@@ -1,0 +1,66 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/text1"
+       android:textSize="20dp"
+       android:textColor="#fff"
+       android:background="@android:color/holo_blue_light"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="20dp"
+       android:text="Satu"/>
+    <TextView
+        android:id="@+id/text2"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dua"/>
+    <Button
+        android:id="@+id/btn"
+        android:text="Klik Saya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/tambah"
+        android:text="Tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:background="@android:color/darker_gray"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:background="@android:color/holo_purple"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="A"/>
+        <TextView
+            android:layout_weight="0.5"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@android:color/holo_red_dark"
+        android:text="Tiga"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
