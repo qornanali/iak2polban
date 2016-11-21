@@ -24,6 +24,8 @@ public class ListAdapter extends ArrayAdapter<String> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
+        //https://github.com/qornanali/iak2polban
+
         View v = convertView;
 
         if (v == null) {
